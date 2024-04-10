@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(238, 242, 246);
+    position: relative;
+}
+#mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  
+  #mode-toggle button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #mode-toggle button i {
+    font-size: 24px;
+    color: #000000; /* لون الأيقونة في وضع النهار */
+  }
+  
+  .dark-mode { /* لون الأيقونة في وضع الظلام */
+   background-color: #222;
+  }
+  i{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(103, 58, 183);
+    padding: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-right: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
